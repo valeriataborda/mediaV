@@ -1,0 +1,26 @@
+h1{
+    color: blueviolet;
+    text-shadow: 2px 1px 2px #ff9efa;
+    padding-right: 20px;
+}
+div{
+    box-shadow: 2px 2px 2px aquamarine;
+}
+.contenido{
+    display: flex;
+}
+@media (min-width: 360px) and (max-width: 415px)
+{
+    h1{
+        font-size: 20px;
+    }
+    body{
+        background-color: #ff9efa;
+    }
+}
+@media (min-width: 160px) and (max-width: 200px)
+{
+body{
+    background-color: rgb(0, 0, 255);
+}
+}
